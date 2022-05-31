@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+</style>
+<title>Phoenixthrush</title>
+
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+</script>
+
+<body onload="startTime()">
+<div>Phoenixhub</div>
+<div id="txt"></div>
+
+<style>
+  img {
+  max-width:100%;
+  height: auto;
+  }
+</style>
+
+</br>
+<img src="gifs/anime_smug.gif">
+<img src="gifs/anime_love.gif">
+<img src="gifs/zero_two_laughing.gif">
+<img src="gifs/anime_bored.gif">
+<img src="gifs/anime_tongue.gif">
+<img src="gifs/anime_eating.gif">
+<img src="gifs/zero_two_blinking.gif">
+<img src="gifs/rias_huh.gif">
+<img src="gifs/hinata_kid.gif">
+<img src="gifs/hinata_smiling.gif">
+<img src="gifs/rias_smiling.gif">
+<img src="gifs/L_deathnote.gif">
+<img src="gifs/ryuk.gif">
+<img src="gifs/Schiggy.gif">
+<img src="gifs/Mio_Akiyama.gif">
+<img src="gifs/anime_cute.gif">
+<img src="gifs/itachi_sasuke.gif">
+<p>
+  
+<div>Made with &#10084</div>
+<div>&copy; 2020 CEO of &commat;<a href="https://instagram.com/phoenixthrush" style="color: red">Phoenixthrush</a> on Instagram</h4>
+</p>
+</html>
